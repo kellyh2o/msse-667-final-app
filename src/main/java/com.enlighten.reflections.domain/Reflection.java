@@ -1,4 +1,4 @@
-package com.example.accessingairbnbdatarest.domain;
+package com.enlighten.reflections.domain;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

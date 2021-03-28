@@ -1,7 +1,7 @@
-package com.example.accessingairbnbdatarest.controller;
+package com.enlighten.reflections.controller;
 
-import com.example.accessingairbnbdatarest.repository.*;
-import com.example.accessingairbnbdatarest.domain.*;
+import com.enlighten.reflections.repository.*;
+import com.enlighten.reflections.domain.*;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,6 +1,6 @@
-package com.example.accessingairbnbdatarest.repository;
+package com.enlighten.reflections.repository;
 
-import com.example.accessingairbnbdatarest.domain.Reflection;
+import com.enlighten.reflections.domain.Reflection;
 
 import java.util.List;
 
