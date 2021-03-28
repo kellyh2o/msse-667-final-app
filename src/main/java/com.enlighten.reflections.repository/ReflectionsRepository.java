@@ -12,7 +12,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 @RepositoryRestResource(collectionResourceRel = "reflections", path = "reflections")
 public interface ReflectionsRepository extends MongoRepository<Reflection, String> {
 
-    List<Reflection> findByName(@Param("name") String name);
+    List<Reflection> findByTitle(@Param("title") String title);
 
     Reflection findById(ObjectId id);
 }

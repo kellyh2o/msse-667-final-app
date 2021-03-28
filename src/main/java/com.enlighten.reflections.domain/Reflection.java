@@ -9,14 +9,25 @@ public class Reflection {
 
   @Id private String id;
 
-  @Field(value = "name")
-  private String name;
+  @Field(value = "title")
+  private String title;
 
-  public String getName() {
-    return name;
+  public String getTitle() {
+    return title;
   }
 
-  public void setName(String name) {
-    this.name = name;
+  public void setTitle(String title) {
+    this.title = title;
+  }
+
+  @Field(value = "text")
+  private String text;
+
+  public String getText() {
+    return text;
+  }
+
+  public void setText(String text) {
+    this.text = text;
   }
 }
